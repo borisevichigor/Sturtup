@@ -359,13 +359,29 @@ footer .container, .wr-forms .container, .wr-slide-bottom .container, .wr-blog .
 .wr-work .container ul li a:hover {
   color: red;
 }
-.wr-work .container .galerry .photo9, .wr-work .container .galerry .photo8, .wr-work .container .galerry .photo7, .wr-work .container .galerry .photo6, .wr-work .container .galerry .photo5, .wr-work .container .galerry .photo4, .wr-work .container .galerry .photo3, .wr-work .container .galerry .photo2, .wr-work .container .galerry .photo1 {
+.wr-work .container .galerry .photo1,
+.wr-work .container .galerry .photo2,
+.wr-work .container .galerry .photo3,
+.wr-work .container .galerry .photo4,
+.wr-work .container .galerry .photo5,
+.wr-work .container .galerry .photo6,
+.wr-work .container .galerry .photo7,
+.wr-work .container .galerry .photo8,
+.wr-work .container .galerry .photo9 {
   position: relative;
   margin: 10px;
   z-index: 1;
   display: flex;
 }
-.wr-work .container .galerry .photo9:hover .txt-btn1, .wr-work .container .galerry .photo8:hover .txt-btn1, .wr-work .container .galerry .photo7:hover .txt-btn1, .wr-work .container .galerry .photo6:hover .txt-btn1, .wr-work .container .galerry .photo5:hover .txt-btn1, .wr-work .container .galerry .photo4:hover .txt-btn1, .wr-work .container .galerry .photo3:hover .txt-btn1, .wr-work .container .galerry .photo2:hover .txt-btn1, .wr-work .container .galerry .photo1:hover .txt-btn1 {
+.wr-work .container .galerry .photo1:hover .txt-btn1,
+.wr-work .container .galerry .photo2:hover .txt-btn1,
+.wr-work .container .galerry .photo3:hover .txt-btn1,
+.wr-work .container .galerry .photo4:hover .txt-btn1,
+.wr-work .container .galerry .photo5:hover .txt-btn1,
+.wr-work .container .galerry .photo6:hover .txt-btn1,
+.wr-work .container .galerry .photo7:hover .txt-btn1,
+.wr-work .container .galerry .photo8:hover .txt-btn1,
+.wr-work .container .galerry .photo9:hover .txt-btn1 {
   visibility: visible;
   width: 100%;
   height: 100%;
@@ -378,7 +394,15 @@ footer .container, .wr-forms .container, .wr-slide-bottom .container, .wr-blog .
   align-items: center;
   justify-content: center;
 }
-.wr-work .container .galerry .photo9 .txt-btn1, .wr-work .container .galerry .photo8 .txt-btn1, .wr-work .container .galerry .photo7 .txt-btn1, .wr-work .container .galerry .photo6 .txt-btn1, .wr-work .container .galerry .photo5 .txt-btn1, .wr-work .container .galerry .photo4 .txt-btn1, .wr-work .container .galerry .photo3 .txt-btn1, .wr-work .container .galerry .photo2 .txt-btn1, .wr-work .container .galerry .photo1 .txt-btn1 {
+.wr-work .container .galerry .photo1 .txt-btn1,
+.wr-work .container .galerry .photo2 .txt-btn1,
+.wr-work .container .galerry .photo3 .txt-btn1,
+.wr-work .container .galerry .photo4 .txt-btn1,
+.wr-work .container .galerry .photo5 .txt-btn1,
+.wr-work .container .galerry .photo6 .txt-btn1,
+.wr-work .container .galerry .photo7 .txt-btn1,
+.wr-work .container .galerry .photo8 .txt-btn1,
+.wr-work .container .galerry .photo9 .txt-btn1 {
   visibility: hidden;
   left: 50%;
   top: 50%;
@@ -386,20 +410,44 @@ footer .container, .wr-forms .container, .wr-slide-bottom .container, .wr-blog .
   position: absolute;
   z-index: 5;
 }
-.wr-work .container .galerry .photo9 .txt-btn1 h2, .wr-work .container .galerry .photo8 .txt-btn1 h2, .wr-work .container .galerry .photo7 .txt-btn1 h2, .wr-work .container .galerry .photo6 .txt-btn1 h2, .wr-work .container .galerry .photo5 .txt-btn1 h2, .wr-work .container .galerry .photo4 .txt-btn1 h2, .wr-work .container .galerry .photo3 .txt-btn1 h2, .wr-work .container .galerry .photo2 .txt-btn1 h2, .wr-work .container .galerry .photo1 .txt-btn1 h2 {
+.wr-work .container .galerry .photo1 .txt-btn1 h2,
+.wr-work .container .galerry .photo2 .txt-btn1 h2,
+.wr-work .container .galerry .photo3 .txt-btn1 h2,
+.wr-work .container .galerry .photo4 .txt-btn1 h2,
+.wr-work .container .galerry .photo5 .txt-btn1 h2,
+.wr-work .container .galerry .photo6 .txt-btn1 h2,
+.wr-work .container .galerry .photo7 .txt-btn1 h2,
+.wr-work .container .galerry .photo8 .txt-btn1 h2,
+.wr-work .container .galerry .photo9 .txt-btn1 h2 {
   font-family: "Montserrat-Regular";
   text-transform: capitalize;
   font-size: 18px;
   color: #fff;
   margin-top: 0;
 }
-.wr-work .container .galerry .photo9 .txt-btn1 h3, .wr-work .container .galerry .photo8 .txt-btn1 h3, .wr-work .container .galerry .photo7 .txt-btn1 h3, .wr-work .container .galerry .photo6 .txt-btn1 h3, .wr-work .container .galerry .photo5 .txt-btn1 h3, .wr-work .container .galerry .photo4 .txt-btn1 h3, .wr-work .container .galerry .photo3 .txt-btn1 h3, .wr-work .container .galerry .photo2 .txt-btn1 h3, .wr-work .container .galerry .photo1 .txt-btn1 h3 {
+.wr-work .container .galerry .photo1 .txt-btn1 h3,
+.wr-work .container .galerry .photo2 .txt-btn1 h3,
+.wr-work .container .galerry .photo3 .txt-btn1 h3,
+.wr-work .container .galerry .photo4 .txt-btn1 h3,
+.wr-work .container .galerry .photo5 .txt-btn1 h3,
+.wr-work .container .galerry .photo6 .txt-btn1 h3,
+.wr-work .container .galerry .photo7 .txt-btn1 h3,
+.wr-work .container .galerry .photo8 .txt-btn1 h3,
+.wr-work .container .galerry .photo9 .txt-btn1 h3 {
   font-family: "RobotoSlab-Regular";
   text-transform: capitalize;
   font-size: 12px;
   color: #fff;
 }
-.wr-work .container .galerry .photo9 .txt-btn1 .btn-photo1, .wr-work .container .galerry .photo8 .txt-btn1 .btn-photo1, .wr-work .container .galerry .photo7 .txt-btn1 .btn-photo1, .wr-work .container .galerry .photo6 .txt-btn1 .btn-photo1, .wr-work .container .galerry .photo5 .txt-btn1 .btn-photo1, .wr-work .container .galerry .photo4 .txt-btn1 .btn-photo1, .wr-work .container .galerry .photo3 .txt-btn1 .btn-photo1, .wr-work .container .galerry .photo2 .txt-btn1 .btn-photo1, .wr-work .container .galerry .photo1 .txt-btn1 .btn-photo1 {
+.wr-work .container .galerry .photo1 .txt-btn1 .btn-photo1,
+.wr-work .container .galerry .photo2 .txt-btn1 .btn-photo1,
+.wr-work .container .galerry .photo3 .txt-btn1 .btn-photo1,
+.wr-work .container .galerry .photo4 .txt-btn1 .btn-photo1,
+.wr-work .container .galerry .photo5 .txt-btn1 .btn-photo1,
+.wr-work .container .galerry .photo6 .txt-btn1 .btn-photo1,
+.wr-work .container .galerry .photo7 .txt-btn1 .btn-photo1,
+.wr-work .container .galerry .photo8 .txt-btn1 .btn-photo1,
+.wr-work .container .galerry .photo9 .txt-btn1 .btn-photo1 {
   font-family: "RobotoSlab-Regular";
   font-size: 14px;
   color: #eb5252;
@@ -409,7 +457,15 @@ footer .container, .wr-forms .container, .wr-slide-bottom .container, .wr-blog .
   padding: 13px 35px;
   text-decoration: none;
 }
-.wr-work .container .galerry .photo9 .txt-btn1 .btn-photo1:hover, .wr-work .container .galerry .photo8 .txt-btn1 .btn-photo1:hover, .wr-work .container .galerry .photo7 .txt-btn1 .btn-photo1:hover, .wr-work .container .galerry .photo6 .txt-btn1 .btn-photo1:hover, .wr-work .container .galerry .photo5 .txt-btn1 .btn-photo1:hover, .wr-work .container .galerry .photo4 .txt-btn1 .btn-photo1:hover, .wr-work .container .galerry .photo3 .txt-btn1 .btn-photo1:hover, .wr-work .container .galerry .photo2 .txt-btn1 .btn-photo1:hover, .wr-work .container .galerry .photo1 .txt-btn1 .btn-photo1:hover {
+.wr-work .container .galerry .photo1 .txt-btn1 .btn-photo1:hover,
+.wr-work .container .galerry .photo2 .txt-btn1 .btn-photo1:hover,
+.wr-work .container .galerry .photo3 .txt-btn1 .btn-photo1:hover,
+.wr-work .container .galerry .photo4 .txt-btn1 .btn-photo1:hover,
+.wr-work .container .galerry .photo5 .txt-btn1 .btn-photo1:hover,
+.wr-work .container .galerry .photo6 .txt-btn1 .btn-photo1:hover,
+.wr-work .container .galerry .photo7 .txt-btn1 .btn-photo1:hover,
+.wr-work .container .galerry .photo8 .txt-btn1 .btn-photo1:hover,
+.wr-work .container .galerry .photo9 .txt-btn1 .btn-photo1:hover {
   filter: opacity(0.4);
 }
 .wr-work .container .galerry {
@@ -755,10 +811,8 @@ footer .container, .wr-forms .container, .wr-slide-bottom .container, .wr-blog .
 .wr-forms .container .formaddres .forms .contact .row {
   margin: 0 -15px;
 }
-.wr-forms .container .formaddres .forms .contact .col-2 {
-  width: 50%;
-}
 .wr-forms .container .formaddres .forms .contact .col {
+  width: 50%;
   float: left;
   min-height: 1px;
   padding-right: 15px;

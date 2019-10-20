@@ -30,7 +30,7 @@ $('.responsive').slick({
   ]
 });
 //rotate icon in section SERVICES
-$("img").hover(function () {
+$('img').hover(function () {
   this.classList.toggle('rotate');
 });
 //slider2
@@ -69,14 +69,22 @@ $('.bottom').slick({
 });
 
 // burger
-menu.onclick = function myfunction() {
-  var x = document.getElementById('myTopnav');
-  if (x.className === "nav") {
-    x.className += " newicon";
+// menu.onclick = function myfunction() {
+//   var x = document.getElementById('myTopnav');
+//   if (x.className === "nav") {
+//     x.className += " newicon";
+//   } else {
+//     x.className = "nav";
+//   }
+// }
+let x = document.getElementById('myTopnav');
+menu.addEventListener('click',function(){
+  if (x.className === 'nav') {
+    x.className += ' newicon';
   } else {
-    x.className = "nav";
+    x.className = 'nav';
   }
-}
+});
 // animation scroll
 $(document).ready(function () {
   $("#myTopnav").on("click", "a", function (event) {
